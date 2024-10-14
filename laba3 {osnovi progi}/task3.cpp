@@ -69,7 +69,7 @@ int main(void)
     return 0;
 }
 
-void puts_array(int n, int m, int matrix[][ROWS])
+void puts_array(int n, int m, int matrix[][ROWS]) //Определение для функции вывода
 {
     for (int i = 0; i < n; i++)
     {
@@ -79,7 +79,7 @@ void puts_array(int n, int m, int matrix[][ROWS])
     }
 }
 
-void gets_array(int n, int m, int matrix[][ROWS])
+void gets_array(int n, int m, int matrix[][ROWS]) //Определение для функции ввода
 {
     for (int i = 0; i < n; i++)
         for (int j = 0; j < m; j++)
