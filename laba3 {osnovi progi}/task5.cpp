@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string.h>
 
-bool my_find(const char text[], char chr)
+bool my_find(const char text[], char chr) //ищем букву в переданной строке
 {
     int i = 0;
     while (text[i] != '\0')
