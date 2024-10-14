@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-size_t my_strlen(const char *s) //Для подсчета длины без учета
+size_t my_strlen(const char *s) //Для подсчета длины без учета переноса строки
 {
     const char *start = s;
     while (*s && *s != '\n')
