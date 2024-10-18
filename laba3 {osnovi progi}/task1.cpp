@@ -3,7 +3,7 @@
 int main(void)
 {
     int arr[2][3] = {};
-    int f_pos, f_neg = 0;
+    int l_pos, f_neg = 0;
 
     for (int i = 0; i < 2; i++)
         for (int j = 0; j < 3; j++)
@@ -15,11 +15,11 @@ int main(void)
         if (f_neg == 0 && arr[i][j] < 0)
             f_neg = arr[i][j];
         if (arr[i][j] > 0)
-            f_pos = arr[i][j];
+            l_pos = arr[i][j];
     }
             
     std::cout << "First_negative: " << f_neg << std::endl;
-    std::cout << "Last positive: " << f_pos << std::endl;
+    std::cout << "Last positive: " << l_pos << std::endl;
 
     return 0;
 }
