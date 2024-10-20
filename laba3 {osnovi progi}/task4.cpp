@@ -15,12 +15,12 @@ int main(void)
     
     char text[1024];
     const char cons[22] = "bcdfghjklmnpqrstvwxyz"; //Строка согласных
-    
+    int length;
+
     std::cout << "Enter text: ";
     fgets(text, 1024, stdin); //Считываем строку из входного потока
 
-    int length;
-
+    
     std::cout << "Select length: ";
     std::cin >> length;
 
