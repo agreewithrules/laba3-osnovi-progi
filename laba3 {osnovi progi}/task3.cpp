@@ -28,9 +28,7 @@ void col_swap(int n, int m, int matrix[][ROWS], int t, int t_to_change) //Мен
 {
     for (int i = 0; i < n; i++)
     {
-        int tmp = matrix[i][t_to_change];
-        matrix[i][t_to_change] = matrix[i][t];
-        matrix[i][t] = tmp;
+        swap(matrix[i], t, t_to_change);
     }
 
 }
